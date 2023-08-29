@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.calcualtor{
+    background-color: black;
+    padding: 20px;
+    max-width: 305px;
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-top: 40px;
+    height: 620px;
+    font-size: 130px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.value{
+    margin-top: 90px;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    font-size: 60px;
+    text-align: right;
+}
+
+.value.active_5{
+    margin-top: 92px;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    font-size: 58px;
+    text-align: right;
+}
+
+.value.active_6{
+    margin-top: 95px;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    font-size: 55px;
+    text-align: right;
+}
+
+.value.active_7{
+    margin-top: 97px;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    font-size: 53px;
+    text-align: right;
+}
+
+.value.active_8{
+    margin-top: 100px;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    font-size: 50px;
+    text-align: right;
+}
+
+.value.active_9{
+    margin-top: 105px;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    font-size: 45px;
+    text-align: right;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 8px;
+}
+
+button{
+  margin-top: 10px;
+  margin-left: px;
+  align-items: center;
+  background-color: #333;
+  border-radius: 50%;
+  display: flex;
+  padding: 10px;
+  font-size: 30px;
+  height: 60px;
+  justify-content: center;
+  width: 60px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight:  600px;
+}
+
+.number:hover{
+  background-color: #515151;
+}
+
+.operator{
+    background-color: #a5a5a5;
+    color: #333; 
+}
+
+.operator:hover{
+    background-color: #cfcdcd;   
+}
+
+
+.operator_orange,
+.equals_operator_orange{
+    background-color: #f1a33c;
+}
+
+.operator_orange:hover,
+.equals_operator_orange:hover{
+    background-color: #faba66;  
+}
+
+.number_0{
+    width:125px;
+    border-radius: 55px;
+    justify-content: flex-start;
+    padding: 20px;
+    grid-column: 1/span 2;
+}
